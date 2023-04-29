@@ -5,31 +5,44 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+    height: 7000px;
 }
 .cabecalho {
+    
+    width: 100%;
     background-color: #2C3B59;
     color: white;
-    display:inline-block ;
+    display: inline-block;
     display: flex;
     justify-content: space-around;
     align-items:;
     padding: 24px 0;
+    height: 200px;
+
+
 }
+
 .nome{
-    display: inline-block;
-    display: flex;
-    margin-left:0px;
+    margin-left:0%;
+    display: inline-flex;
 }
 
 .cabecalho-imagem{
-    width: 20px;
+    margin-top: 5%;
+    width: 35%;
+    height: 90%;
+    display:inline-flex ;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin-top:100px;
+    margin-top: 100px;
     font-size: 24px;
+
 }
+
 .sobre{
     background-image: linear-gradient( #2C3B59,#FFFFFF);
     color:black ;
@@ -37,9 +50,11 @@ body{
     align-items: center;
     padding:24px 0;
 }
+
 .sobre-div-conteudo{
     width: 40%;
 }
+
 .sobre-titulo{
     padding:10px 0 ;
 }
